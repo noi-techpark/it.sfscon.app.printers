@@ -1,0 +1,14 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: OpenCON
+Upstream-Contact: DigitalCUBE <info@digitalcube.rs>
+Source: https://m.opencon.dev/
+
+
+Files: assets/*.ttf
+Copyright: © 2010 - 2018 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+License: OFL-1.1-RFN
+
+Files: assets/*.png log.py *.py *.sh .gitignore *.sample .env.sample docker-compose.yaml src/*.py src/*.yaml src/*.xml src/docker/* README.md requirements.txt src/pyproject.toml src/tests/assets/fake_attendees.json src/tests/pytest.ini
+Copyright: 2023 DigitalCUBE <info@digitalcube.rs>
+License: GPL-3.0-or-later
+
